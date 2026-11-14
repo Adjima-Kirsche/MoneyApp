@@ -47,7 +47,7 @@
         <TextBox x:Name="IncomeTXT" HorizontalAlignment="Left" Height="29" Margin="166,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
         <TextBox x:Name="ExpenseTXT" HorizontalAlignment="Left" Height="29" Margin="166,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
         <TextBox x:Name="WantedTXT" HorizontalAlignment="Left" Height="29" Margin="281,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
-        <TextBox x:Name="DayTXT" HorizontalAlignment="Left" Height="29" Margin="249,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <TextBox x:Name="DayTXT" IsReadOnly="True" HorizontalAlignment="Left" Height="29" Margin="249,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
         <TextBlock HorizontalAlignment="Left" Margin="360,122,0,0" TextWrapping="Wrap" Text="Bath/ Day" VerticalAlignment="Top" Foreground="#FF684DC3" FontSize="22" FontWeight="Bold"/>
         <TextBlock x:Name="Expense" HorizontalAlignment="Left" Margin="360,175,0,0" TextWrapping="Wrap" Text="Bath/ Day" VerticalAlignment="Top" Foreground="#FF684DC3" FontSize="22" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="550,231,0,0" TextWrapping="Wrap" Text="Bath" VerticalAlignment="Top" Foreground="#FF684DC3" FontSize="22" FontWeight="Bold"/>

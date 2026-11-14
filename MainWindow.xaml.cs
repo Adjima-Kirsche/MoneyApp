@@ -28,7 +28,7 @@ namespace MoneyApp
             double wanted = double.Parse(WantedTXT.Text);
 
             double Totalmoney = income - expense;
-            double days = wanted / Totalmoney;
+            double days = Math.Floor(wanted/Totalmoney);
 
             DayTXT.Text = days.ToString("");
         }
